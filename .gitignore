@@ -1,0 +1,18 @@
+# Environments & secrets
+venv/
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Full data pulls (regenerate with pipeline.ingest); data/sample/ IS committed
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
